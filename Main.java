@@ -1,22 +1,14 @@
 public class Main {
   public static void main(String[] args) {
-    //Instrument instrument = new Instrument(); //DOES THIS WORK? -> NO
+    Instrument violin = new Violin();
+    Instrument glockenspiel = new Glockenspiel();
 
-    //Violin violin = new Violin();
-
-    //Glockenspiel glockenspiel = new Glockenspiel();
-
-    //instrument.tune();
-    //violin.tune();
-    //glockenspiel.tune();
-
-    //instrument.play();
-    //violin.play();
-    //glockenspiel.play();
-
-    //instrument.done();
+    violin.tune();
+    violin.play();
     violin.done();
-    //glockenspiel.done();
-  }
 
+    glockenspiel.tune();
+    glockenspiel.play();
+    glockenspiel.done();
+  }
 }
